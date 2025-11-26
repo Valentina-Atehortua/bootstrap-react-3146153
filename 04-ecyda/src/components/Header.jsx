@@ -1,30 +1,40 @@
-export const Header = () => {
+import "../header.css"
+
+export const Header = ({ headerColor, header2Color }) => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg py-0 d-flex">
-                <div className="container-fluid p-3 mb-2 bg-success text-white ">
-                    <a className="navbar-brand" href="#"><img className="img1" width="60" src="./logo-ecyda.gif" alt="" /></a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse flex-grow-0" id="navbarNav p-3 mb-2 bg-success text-white ">
-                        <ul className="navbar-nav ">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Features</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Pricing</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
+            <div className="Header ">
+                <nav class={`navbar navbar-expand-lg  ${headerColor}`} data-bs-theme="dark">
+                    <div class="container ">
+                        <a class="navbar-brand" href="#">
+                            <img src="./logo-ecyda.gif" alt="Bootstrap" width="70" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item navbar-light ">
+                                    <a class="nav-link" href="#">Acerca de</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Comic interactivo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Tienda</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Quienes somos</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                </nav>
+                <div className="d-flex justify-content-end">
+                    <img className="img2 p-2 " width="60" src="./image.png" alt="" />
                 </div>
-            </nav>
+                <div className={`text-white text-center ${header2Color}`}>Lo normal fue lo primero en morir</div>
+            </div>
         </>
     )
 }

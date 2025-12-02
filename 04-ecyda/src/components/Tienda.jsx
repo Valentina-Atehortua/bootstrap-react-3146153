@@ -18,10 +18,34 @@ export const Tienda = () => {
       </div>
 
       <div className="cuadro p-5 d-flex justify-content-center h-100" width="100">
-        <img className="img3 position-absolute" src="./cuadros.gif" alt="" />
-        <p className="tex position-relative">Bienvenido a la tienda de ECYDA, tu espacio digital para descubrir productos unicos, seleccionados con oasion y pensados para ti. Aqui, 
-        la calidad se encuentra con la comodidad de comprar desde donde estes. Explora, elige y deja que lo mejor llegue a tu puerta. </p>
+        <img className="img3 position-absolute opacity-25" src="./cuadros.gif" alt="" />
+        <div className="container">
+          <p className="tex position-relative m-5 p-5 m">Bienvenido a la tienda de ECYDA, tu espacio digital para descubrir productos unicos, seleccionados con oasion y pensados para ti. Aqui,
+            la calidad se encuentra con la comodidad de comprar desde donde estes. Explora, elige y deja que lo mejor llegue a tu puerta. </p>
+        </div>
       </div>
+      <section className="tarjetas container">
+        <p>Algunos de nuestros productos</p>
+        <div className="row">
+          <div className="col ">
+            <div className="card m-auto" style={{width: "30rem", height: "16rem"}}>
+          <img className="img4 m-auto" width="190" src="./mata.gif" alt="" />
+            <div className="card-body">
+              <p className="card-text d-flex justify-content-center">Macetas</p>
+            </div>
+        </div>
+          </div>
+          <div className="col">
+             <div className="card m-auto" style={{width: "30rem", height: "16rem"}}>
+          <img className="img4 m-auto" width="190" src="./porcelana1.gif" alt="" />
+            <div className="card-body">
+              <p className="card-text d-flex justify-content-center">Porcelana</p>
+            </div>
+        </div>
+
+          </div>
+        </div>
+      </section>
 
 
     </>

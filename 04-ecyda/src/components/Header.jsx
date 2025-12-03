@@ -30,9 +30,6 @@ export const Header = ({ headerColor, header2Color }) => {
                         </div>
                     </div>
                 </nav>
-                <div className="d-flex justify-content-end">
-                    <img className="img2 p-2 " width="60" src="./image.png" alt="" />
-                </div>
                 <div className={`text-white text-center ${header2Color}`}>Lo normal fue lo primero en morir</div>
             </div>
         </>

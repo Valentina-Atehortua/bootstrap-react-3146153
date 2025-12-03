@@ -8,7 +8,9 @@ export const Tienda = () => {
         headerColor="bg-green"
         header2Color="bg-lightColor"
       />
-
+      <div className="d-flex justify-content-end">
+        <img className="img2 p-2 " width="60" src="./image.png" alt="" />
+      </div>
       <div className="banner position-relative">
         <img className="img1 position-absolute p-2" width="190" src="./circulo.gif" alt="" />
         <img className="img2 position-absolute p-2" width="190" src="./circulo.gif" alt="" />
@@ -25,23 +27,49 @@ export const Tienda = () => {
         </div>
       </div>
       <section className="tarjetas container">
-        <p>Algunos de nuestros productos</p>
+        <p className="algunos d-flex justify-content-center p-4 fw-bold">Algunos de nuestros productos</p>
         <div className="row">
           <div className="col ">
-            <div className="card m-auto" style={{width: "30rem", height: "16rem"}}>
-          <img className="img4 m-auto" width="190" src="./mata.gif" alt="" />
-            <div className="card-body">
-              <p className="card-text d-flex justify-content-center">Macetas</p>
+            <div className="card m-auto" style={{ width: "30rem", height: "16rem" }}>
+              <img className="img4 m-auto" width="190" src="./mata.gif" alt="" />
+              <div className="card-body">
+                <p className="card-text d-flex justify-content-center">Macetas</p>
+              </div>
             </div>
-        </div>
           </div>
           <div className="col">
-             <div className="card m-auto" style={{width: "30rem", height: "16rem"}}>
-          <img className="img4 m-auto" width="190" src="./porcelana1.gif" alt="" />
-            <div className="card-body">
-              <p className="card-text d-flex justify-content-center">Porcelana</p>
+            <div className="card m-auto" style={{ width: "30rem", height: "16rem" }}>
+              <img className="img4 m-auto" width="190" src="./porcelana1.gif" alt="" />
+              <div className="card-body">
+                <p className="card-text d-flex justify-content-center">Porcelana</p>
+              </div>
             </div>
+
+          </div>
         </div>
+      </section>
+      <section className="p-4">
+        <div className="categoria container fw-bold  rounded-3">
+          <p className="d-flex justify-content-center h-100 align-items-center text-white fs-5">CATEGORIAS</p>
+        </div>
+      </section>
+      <section className="tarjeta container">
+        <div className="row">
+          <div className="col ">
+            <div className="card m-auto bg-primary-subtle text-primary-emphasis" style={{ width: "39rem", height: "16rem" }}>
+              <img className="img4 m-auto p-3" width="280" src="./133179.jpg" alt="" />
+              <div className="card-body">
+                <p className="card-text d-flex justify-content-center">Macetas</p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card m-auto bg-primary-subtle text-primary-emphasis" style={{ width: "39rem", height: "16rem" }}>
+              <img className="img4 m-auto p-3" width="320" src="./porce.jpg" alt="" />
+              <div className="card-body">
+                <p className="card-text d-flex justify-content-center">Porcelana</p>
+              </div>
+            </div>
 
           </div>
         </div>

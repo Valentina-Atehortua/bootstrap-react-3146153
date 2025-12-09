@@ -9,8 +9,8 @@ export const Footer = ({ headerColor }) => {
                         <div className="col d-flex flex-column justify-content-center">
                             <div className=" m-auto  border-white d-flex " style={{ width: "23rem" }}>
                                 <div className="card-body d-flex flex-column justify-content-center">
-                                    <p className="card-text d-flex justify-content-center nav-link" href="#">Lineas de atención</p>
-                                    <p className="card-text d-flex justify-content-center nav-link" href="#">CEL: 320 740 60 79</p>
+                                    <p className="card-text d-flex justify-content-center nav-link">Lineas de atención</p>
+                                    <p className="card-text d-flex justify-content-center nav-link">CEL: 320 740 60 79</p>
                                 </div>
                             </div>
                         </div>
@@ -30,6 +30,9 @@ export const Footer = ({ headerColor }) => {
                                     <p className="card-text d-flex justify-content-center nav-link" href="#">CLL 85b #33-09</p>
                                 </div>
                             </div>
+                        </div>
+                        <div className="d-flex justify-content-center p-2" width="100%">
+                            <img className="" width="25%" src="./social.gif" alt="" />
                         </div>
                     </div>
                 </div>

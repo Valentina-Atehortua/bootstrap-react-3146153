@@ -1,4 +1,5 @@
 import "../tienda.css"
+import { Footer } from "./Footer"
 import { Header } from "./Header"
 
 export const Tienda = () => {
@@ -53,7 +54,7 @@ export const Tienda = () => {
           <p className="d-flex justify-content-center h-100 align-items-center text-white fs-5">CATEGORIAS</p>
         </div>
       </section>
-      <section className="tarjeta container">
+      <section className="tarjeta container p-3">
         <div className="row">
           <div className="col ">
             <div className="card m-auto bg-primary-subtle text-primary-emphasis" style={{ width: "39rem", height: "16rem" }}>
@@ -74,6 +75,9 @@ export const Tienda = () => {
           </div>
         </div>
       </section>
+      <Footer
+        headerColor="bg-green"
+      />
 
 
     </>

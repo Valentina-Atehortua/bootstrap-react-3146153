@@ -1,4 +1,5 @@
 import "../somos.css"
+import { Footer } from "./Footer"
 import { Header } from "./Header"
 
 export const Somos = () => {
@@ -56,6 +57,43 @@ export const Somos = () => {
           </div>
         </div>
       </section>
+      <section className="tarjetass container p-5">
+        <div className="row">
+          <div className="col">
+            <div className=" m-auto  border-white d-flex" style={{ width: "23rem"}}>
+              <img className="img4 m-auto" width="50" src="./redess.gif" alt="" />
+              <div className="card-body d-flex flex-column justify-content-center">
+                <p className="card-text d-flex justify-content-center">vatehortua228@gmail.com</p>
+                <p className="card-text d-flex justify-content-center">valen_ateho</p>
+                <p className="card-text d-flex justify-content-center">+57 311 2896155</p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className=" m-auto  border-white d-flex" style={{ width: "23rem"}}>
+              <img className="img4 m-auto" width="50" src="./redess.gif" alt="" />
+              <div className="card-body d-flex flex-column justify-content-center">
+                <p className="card-text d-flex justify-content-center">nicolmaderamc123@gmail.com</p>
+                <p className="card-text d-flex justify-content-center">bourbaki_twenty_one_pilots</p>
+                <p className="card-text d-flex justify-content-center">+57 320 7406079</p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className=" m-auto  border-white d-flex" style={{ width: "23rem"}}>
+              <img className="img4 m-auto" width="50" src="./redess.gif" alt="" />
+              <div className="card-body d-flex flex-column justify-content-center">
+                <p className="card-text d-flex justify-content-center">kerencaldera16@gmail.com</p>
+                <p className="card-text d-flex justify-content-center">Linsy_cb</p>
+                <p className="card-text d-flex justify-content-center">+57 311 3446262</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <Footer
+        headerColor="bg-green"
+      />
     </>
   )
 }

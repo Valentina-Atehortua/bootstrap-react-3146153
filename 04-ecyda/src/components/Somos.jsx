@@ -8,6 +8,7 @@ export const Somos = () => {
     <Header
         headerColor="bg-green"
         header2Color="bg-lightColor"
+        
       />
       <div className="banner">
         <div className="ban position-relative p-4 h-100 d-flex justify-content-center">

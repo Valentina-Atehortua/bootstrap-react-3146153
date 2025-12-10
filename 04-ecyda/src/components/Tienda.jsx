@@ -14,9 +14,9 @@ export const Tienda = () => {
       </div>
       <div className="banner position-relative">
         <img className="img1 position-absolute p-2" width="190" src="./circulo.gif" alt="" />
-        <img className="img2 position-absolute p-2" width="190" src="./circulo.gif" alt="" />
+        <img className="img2 position-absolute p-1" width="190" src="./circulo.gif" alt="" />
         <div className="ban position-relative p-4 h-100 d-flex justify-content-center">
-          <img className="ban h-100" src="./banner.gif" alt="" />
+          <img className="ban h-100 " width="70%" src="./banner.gif" alt="" />
         </div>
       </div>
 

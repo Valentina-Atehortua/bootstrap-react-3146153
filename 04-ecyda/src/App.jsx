@@ -5,8 +5,8 @@ export const App = () => {
   return (
     <>
 
-   {/*  <Tienda/> */}
-   <Somos/>
+    <Tienda/>
+  {/*  <Somos/> */}
     </>
   )
 }

@@ -21,7 +21,6 @@ export const Tienda = () => {
       </div>
 
       <div className="cuadro p-5 d-flex justify-content-center h-100" width="100">
-        <img className="img3 position-absolute opacity-25" src="./cuadros.gif" alt="" />
         <div className="container">
           <p className="tex position-relative m-5 p-5 m">Bienvenido a la tienda de ECYDA, tu espacio digital para descubrir productos unicos, seleccionados con oasion y pensados para ti. Aqui,
             la calidad se encuentra con la comodidad de comprar desde donde estes. Explora, elige y deja que lo mejor llegue a tu puerta. </p>

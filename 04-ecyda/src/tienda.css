@@ -15,6 +15,11 @@
     background-color: antiquewhite;
    
 }
+.cuadro{
+    background-image: url(./cuadros.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .categoria{
      width: 25%;
      height: 10vh;

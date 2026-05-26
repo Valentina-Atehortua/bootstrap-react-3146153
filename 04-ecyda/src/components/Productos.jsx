@@ -1,4 +1,4 @@
-import "../tienda.css"
+import "../productos.css"
 import { Footer } from "./Footer"
 import { Header } from "./Header"
 
